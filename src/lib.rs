@@ -12,6 +12,7 @@
 #![warn(missing_docs)]
 
 extern crate numtoa;
+extern crate sys;
 
 #[cfg(target_os = "redox")]
 #[path="sys/redox/mod.rs"]
